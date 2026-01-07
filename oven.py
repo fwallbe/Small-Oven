@@ -42,7 +42,7 @@ TEMP_MAX_C = 140.0
 
 # ---- PID control parameters ----
 PID_KP = 0.22                     # proportional gain
-PID_KI = 0.01                    # integral gain (per second)
+PID_KI = 0.03                    # integral gain (per second)
 PID_KD = 0.0                     # derivative gain (per second)
 
 PID_OUTPUT_MIN = 0.0             # interpreted as duty request [0..1]
